@@ -418,6 +418,7 @@ button {
     position: absolute;
     top: 0;
     right: 0;
+    display: block;
   }
   
   .sp-menu #open {
@@ -446,6 +447,7 @@ button {
   .overlay.show {
     opacity: 1;
     pointer-events: auto;
+    display: block;
   }
 
   .overlay #close {
@@ -466,7 +468,7 @@ button {
     margin-top: 24px;
     opacity: 0;
     transform: translateY(16px);
-    transition: opacity .3s transform .3s;
+    transition: opacity .3s, transform .3s;
   }
 
   .overlay.show li {
